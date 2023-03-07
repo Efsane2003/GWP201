@@ -1,0 +1,1 @@
+First, I created a folder called GWP 201, then via Git Bush Here, I went to cd GWP201 folder, then mkdir GitCommands folder, then code .  entered and the vieskod window opened, where I created a proudcts.txt file
