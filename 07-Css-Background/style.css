@@ -1,0 +1,30 @@
+#rest{
+    height: 100vh;
+    background-image:url(./image/cloud.jpg);
+    background-size:auto;
+    background-repeat: no-repeat;
+}
+a:hover{
+    color: hotpink;
+}
+#Registr{
+    width: 250px;
+    height: 300px;
+    background-color: rgba(223, 223, 192, 0.811);
+}
+
+.link{
+   margin-left: 40px;
+}
+.sec2{
+    height: 100vh;
+    background-image: url(./image/gul.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+p{
+    margin-left: 40px;
+}
+
+    
