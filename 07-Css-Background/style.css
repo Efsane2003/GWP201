@@ -26,5 +26,20 @@ a:hover{
 p{
     margin-left: 40px;
 }
+#sec3{
+    height: 100vh;
+    background-image: url(./image/star.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#sec4{
+    height: 40vh;
+    background-image: url(./image/minions.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+
 
     
