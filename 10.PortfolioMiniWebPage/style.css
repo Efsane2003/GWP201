@@ -1,0 +1,282 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+#hero-banner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  font-family: "Roboto", sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+header {
+  padding: 20px 0;
+  background-color: #fffaed;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.header .logo {
+  text-shadow: 3px 3px 10px #746f64;
+  font-size: 36px;
+}
+.header .logo span {
+  color: #e9b949;
+}
+.header nav ul {
+  display: flex;
+  column-gap: 25px;
+}
+.header nav ul a {
+  color: rgb(15, 15, 19);
+}
+.hero-banner-info h1::before {
+  content: "";
+  width: 80px;
+  display: block;
+  border: 3px solid #e9b949;
+}
+.hero-banner-info h1 {
+  font-size: 48px;
+  color: rgb(4, 4, 47);
+}
+.hero-banner p {
+  font-size: 20px;
+  color: rgb(99, 99, 239);
+  display: inline-block;
+}
+.hero-banner a{
+  border: #e9b949;
+  border-radius: 5px;
+  background-color: #e9b949;
+  padding: 2px;
+  margin: 20px 0;
+}
+.hero-banner-info .social-icons {
+  font-size: 24px;
+  color: rgb(4, 4, 47);
+  margin: 30px 0;
+}
+.hero-banner h1,p,a{
+  margin: 15px 0;
+}
+.hero-banner {
+  display: flex;
+  align-items: center;
+  height: 80vh;
+ 
+ column-gap: 100px;
+}
+#hero-banner {
+  background-color: #fffaed;
+ 
+}
+.hero-banner-image img {
+  width: 200px;
+  border-radius: 5px;
+  
+}
+#hero-banner .hero-banner-image,
+#hero-banner .hero-banner-info {
+  width: 50%;
+  
+}
+.img-border{
+  display: inline-block;
+  border: 3px solid #e9b949;
+  border-radius: 5px;
+}
+.img-border img{
+  position: relative;
+  left: -20px;
+  top: -20px;
+}
+#hero-banner .hero-banner-info {
+  flex-direction: column;
+  row-gap: 20px;
+}
+#hero-banner .hero-banner-image .image-border {
+  border: 2px solid #e9b949;
+  border-radius: 5px;
+}
+.social-icons i {
+  margin: 0 10px;
+}
+.about-image img{
+  width: 200px;
+  border-radius: 5px;
+  position: relative;
+  top: -20px;
+  right: -20px;
+}
+.image-border2{
+  border: 3px solid #e9b949;
+  display: inline-block;
+  border-radius: 5px;
+}
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 80px;
+  height: 80vh;
+}
+.about-info{
+  display: grid;
+  row-gap: 20px;
+}
+.about-info p{
+  width: 500px;
+  color: rgb(6, 6, 18);
+}
+.about-info h1::after{
+  content: "";
+ border: 2px solid #e9b949;
+ display: block;
+ width: 40px;
+}
+.about-info a{
+  color: black;
+  border: 2px solid #e9b949;
+  border-radius: 2px;
+  background-color: #e9b949;
+  width: 100px;
+}
+#servicess{
+    background-color: rgb(228, 228, 244);
+    height: 80vh;
+}
+.orta_alan{
+    display: flex;
+    /*width: 80%;*/
+    justify-content: space-around;
+    align-items: center;
+    /*flex-direction: row;*/
+}
+.orta{
+    width: 350px;
+    height: 300px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: white;
+    margin: 25px ;
+    box-sizing: border-box;
+}
+.orta .icerik{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   flex-direction: column;
+   padding: 10px;
+   font-family:"Roboto", sans-serif;
+  text-align: justify;
+}
+.orta p{
+    text-indent: 15px;
+    color:rgb(99, 99, 239) ;
+}
+.orta i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    font-size: 36px;
+}
+.orta h4{
+    font-size: 24px;
+}
+.container .title{
+    padding: 50px;
+    font-size: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.orta:hover{
+    background-color: #e9b949;
+    transition: 0.6s;
+}
+
+.alt_alan {
+    display: flex;
+    width: 100%;
+   height: 25vh;
+    background-color: rgb(9, 9, 9);
+    flex-wrap: wrap;
+}
+.alt_alan .sosial{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 24px;
+}
+.alt_alan .sosial i{
+    margin: 20px;
+    color: #e9b949;
+}
+.alt_alan .sosial i:hover{
+    color: red;
+}
+.alt_alan .link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    width: 100%;
+ }
+ 
+ @media only screen and(max-width:992px){
+#hero-banner{
+    flex-wrap: wrap;
+}
+
+ }
+@media only screen and(max-width:768px){
+  .header nav ul {
+    display: none;
+  }
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
