@@ -9,4 +9,6 @@
 
 05-FristHtmlFullSite:https://steady-pithivier-b44155.netlify.app
 
+06-Css-Selectors:https://coruscating-starburst-ee5f36.netlify.app
+
 
