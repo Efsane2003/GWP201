@@ -1,0 +1,155 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  font-family: 'Catamaran', sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+#section-1{
+  height: 60vh;
+  background-color: rgb(224, 224, 244);
+}
+
+h1{
+font-family: 'Grand Hotel', cursive;
+color: #688f37;
+font-size: 30px;
+
+}
+h2{
+  letter-spacing: 2px;
+  font-size: 24px;
+}
+.text{
+  padding: 40px;
+}
+.btn{
+  letter-spacing: 2px;
+  margin:15px 0;
+  padding:5px 20px;
+  background-color: #688f37;
+  color: white;
+  border: 1px solid #688f37;
+  border-radius: 3px;
+}
+p{
+  color: grey;
+}
+ img{
+  width: 200px;
+  border-radius: 5px;
+}
+.img{
+  padding: 40px;
+  display: flex;
+  column-gap: 20px;
+  
+}
+h4{
+  letter-spacing: 2px;
+}
+h4.mark{
+  color:#688f37 ;
+}
+#banner{
+  height: 80vh;
+}
+.header{
+  text-align: center;
+  margin-top: 40px;
+}
+.header h1,h2{
+  margin-bottom: 10px;
+}
+.img-side{
+  display: flex;
+  column-gap: 20px;
+}
+.img-side img{
+  width: 200px;
+}
+.img-side  .img1,
+.img2,
+.img3{
+  background-color: rgb(224, 224, 244);
+  height: 350px;
+  width: 200px;
+}
+.img-side div{
+  border-radius: 5px;
+}
+.img-side img{
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.img1,.img2,.img3{
+  position: relative;
+}
+.fa-solid {
+  font-size: 25px;
+  position: absolute;
+  left: 80px;
+  top: 130px;
+  border: 3px solid white;
+  border-radius: 50%;
+  padding: 5px;
+  background-color: #688f37;
+  color: rgba(17,16,16,0.414);
+}
+h3.about{
+  text-align: center;
+  letter-spacing: 3px;
+  font-weight: lighter;
+  margin-top: 10px;
+}
+p.about{
+  text-align: center;
+}
+button.about{
+  position: absolute;
+  left: 50px;
+  border: 1px solid #688f37;
+  border-radius: 8px;
+  padding: 4px 10px;
+  background-color: #688f37;
+  color: white;
+}
+@media screen and ( max-width:992px){
+  .container{
+    display:inline-block;
+    flex-direction: column;
+    width: 100%;
+  }
+  .img .img4{
+    display: inline-block;
+    flex-direction: column;
+  }
+  .img-side{
+    flex-direction: column;
+    align-items: center;
+  }
+
+}
+
+@media screen and (max-width:777px){
+  .container-text-img{
+    flex-direction: column;
+    height: 100%;
+    margin: auto;
+  }
+  .text{
+    flex-direction: column;
+    margin: auto;
+  }
+  
+}
+
+
+
+
