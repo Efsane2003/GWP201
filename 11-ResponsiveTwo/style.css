@@ -15,19 +15,29 @@
   height: 60vh;
   background-color: rgb(224, 224, 244);
 }
-
+.container-text-img{
+  margin-top: 60px;
+  display: flex;
+}
+.left,.right{
+  column-gap: 30px;
+  display: flex;
+}
+img{
+  border-radius: 5px;
+  width: 200px;
+}
 h1{
-font-family: 'Grand Hotel', cursive;
-color: #688f37;
-font-size: 30px;
-
+  font-family: 'Grand Hotel', cursive;
+  color: #688f37;
+  font-size: 30px;
 }
 h2{
   letter-spacing: 2px;
   font-size: 24px;
 }
-.text{
-  padding: 40px;
+p{
+  color: grey;
 }
 .btn{
   letter-spacing: 2px;
@@ -38,21 +48,8 @@ h2{
   border: 1px solid #688f37;
   border-radius: 3px;
 }
-p{
-  color: grey;
-}
- img{
-  width: 200px;
-  border-radius: 5px;
-}
-.img{
-  padding: 40px;
-  display: flex;
-  column-gap: 20px;
-  
-}
-h4{
-  letter-spacing: 2px;
+.mark,h4{
+  letter-spacing: 3px
 }
 h4.mark{
   color:#688f37 ;
@@ -121,33 +118,35 @@ button.about{
   color: white;
 }
 @media screen and ( max-width:992px){
-  .container{
-    display:inline-block;
-    flex-direction: column;
-    width: 100%;
+  .container-text-img{
+  flex-direction: column;
+   width: 800px;
   }
-  .img .img4{
-    display: inline-block;
+  
+  .right{
+    display: flex;
     flex-direction: column;
   }
   .img-side{
+    row-gap: 20px;
     flex-direction: column;
     align-items: center;
   }
-
 }
-
-@media screen and (max-width:777px){
+@media screen and (max-width: 777px){
   .container-text-img{
     flex-direction: column;
     height: 100%;
     margin: auto;
   }
-  .text{
+  .left{
+    align-items: center;
     flex-direction: column;
     margin: auto;
   }
-  
+  .img{
+    flex-direction: column;
+  }
 }
 
 
