@@ -1,4 +1,6 @@
 # GWP201
+14.SCSS-QuicqlyLandingPage:https://lucent-paletas-47c684.netlify.app
+
 12-Responsive-page:https://aesthetic-scone-46c329.netlify.app
 
 11-ResponsiveTwo: https://starlit-flan-d02253.netlify.app
