@@ -1,0 +1,46 @@
+footer{
+    background-color: #072125;
+    padding: 60px 0;
+    .footer{
+    @include flexBox();
+    align-items: flex-start;
+      .left-footer{
+       .checkbox{
+        @include flexBox();
+       }
+       .footer-button{
+        padding: 25px 0;
+        .footer-btn{
+            @extend %primary-button;
+        }
+        .email-btn{
+            @extend %primary-button;
+            background-color: #FFFFFF;
+            color: #20484F;
+        }
+    }
+      }
+      .right-footer{
+        @include flexBox();
+        column-gap: 130px;
+        h5{
+            color: #FFFFFF !important;
+        }
+        a{
+            line-height: 24px;
+            color: #DCF2ED;
+        }
+      }
+    }
+    @media only screen and (max-width:767px){
+        .footer{
+            .left-footer{
+                display: none;
+            }
+            .right-footer{
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+    }
+  }

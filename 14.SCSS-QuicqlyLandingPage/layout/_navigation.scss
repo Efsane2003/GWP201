@@ -1,0 +1,45 @@
+header{
+.navbar {
+  @include flexBox();
+   .menu{
+   display: none;
+   }
+
+  nav {
+    ul {
+      @include flexBox();
+      gap: 32px;
+      li {
+        a {
+          color: #ffffff;
+        }
+      }
+    }
+  }
+  .navbar-btn {
+    @extend %primary-button;
+  }
+  .navbar-btn-2 {
+    @extend %primary-button;
+    color: #ffffff;
+    border-radius: unset;
+    background: unset;
+    border: unset;
+  }
+
+  }
+@media only screen and (max-width:767px){
+    .navbar{
+        nav{
+            display: none;
+        }
+        .btn{
+            display: none;
+        }
+        .menu{
+            color: #ffffff;
+            display: block;
+        }
+    }
+}
+}
