@@ -1,24 +1,31 @@
 footer{
+    position: relative;
+    z-index: -1;
     background-color: #072125;
     padding: 60px 0;
-    .footer{
+    .footer{ 
     @include flexBox();
     align-items: flex-start;
       .left-footer{
+        position: relative;
        .checkbox{
         @include flexBox();
+        .checkbox-1{
+            margin-right: 24px;
+        }
        }
-       .footer-button{
-        padding: 25px 0;
+    .footer-button{
+        margin-top: 15px;
+        .email-btn{
+            @extend %primary-button;
+            background-color: #FFFFFF
+
+        }
         .footer-btn{
             @extend %primary-button;
         }
-        .email-btn{
-            @extend %primary-button;
-            background-color: #FFFFFF;
-            color: #20484F;
-        }
     }
+
       }
       .right-footer{
         @include flexBox();
@@ -34,13 +41,15 @@ footer{
     }
     @media only screen and (max-width:767px){
         .footer{
-            .left-footer{
-                display: none;
-            }
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
             .right-footer{
                 flex-direction: column;
                 text-align: center;
             }
         }
     }
-  }
+
+
+}
